@@ -1,5 +1,14 @@
-import 'package:dart_application/dart_application.dart' as dart_application;
+void main() {
+  String nome = 'Laranja';
+  double peso = 100.2;
+  String cor = "Verde e Amarela";
+  String sabor = "Doce e cítrica";
+  int diasDesdeColheita = 40;
+  bool isMadura;
 
-void main(List<String> arguments) {
-  print('Hello world: ${dart_application.calculate()}!');
+  if (diasDesdeColheita >= 30) {
+    isMadura = true;
+  } else {
+    isMadura = false;
+  }
 }
